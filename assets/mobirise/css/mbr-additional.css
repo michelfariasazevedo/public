@@ -682,8 +682,13 @@ body {
 a {
   transition: color 0.6s;
 }
+*:focus-visible {
+  outline: red solid 2px !important;
+  outline-offset: 2px !important;
+  transition: outline 0.2s ease-in-out;
+}
 .cid-tuPPHlxsLB {
-  background-image: url("../../../assets/images/mr20freela-1640x924.png");
+  background-image: url("../../../assets/images/bg-mrfreela2-1920x1080.png");
 }
 @media (min-width: 275px) and (max-width: 575px) {
   .cid-tuPPHlxsLB .mbr-video-foreground {
@@ -822,6 +827,9 @@ a {
 }
 .cid-tuPPHlxsLB .mb-5 {
   margin-bottom: 1rem !important;
+}
+.cid-tuPPHlxsLB .mt-5 {
+  margin-top: 2rem !important;
 }
 .cid-tuPPHlxsLB H3 {
   color: #005990;
